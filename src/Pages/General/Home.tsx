@@ -24,7 +24,7 @@ const Home = () => {
         <Link to='' className=""> <img src={logo} alt="" className=" w-72" /> </Link>
         <div className="lg:flex hidden">
           <Link to='' className=" font-semibold text-xl px-2">Home</Link>
-          <Link to='' className="font-semibold text-xl px-2">Who We Are</Link>
+          <Link to='' className="font-semibold text-xl px-2">Who we Are</Link>
           <Link to='' className="font-semibold text-xl px-2">Contact Us</Link>
         </div>
         <div className="lg:flex hidden">
