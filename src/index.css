@@ -18,3 +18,35 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+.bgimg {
+  background: url(./assets/images/lagosagro8.jpg) center/cover;
+  filter: brightness(60%);
+  z-index: 10;
+  position: relative;
+  height: 20rem;
+  background-attachment: fixed;
+}
+.travelimg {
+  background: url(./assets/images/train-3.jpg) center/cover;
+  filter: brightness(60%);
+  z-index: 10;
+  position: relative;
+  height: 20rem;
+  background-attachment: fixed;
+}
+.medicimg {
+  background: url(./assets/images/ambulance.jpg) center/cover;
+  filter: brightness(60%);
+  z-index: 10;
+  position: relative;
+  height: 20rem;
+  background-attachment: fixed;
+}
+.eduimg {
+  background: url(./assets/images/school-bus.jpg) center/cover;
+  filter: brightness(60%);
+  z-index: 10;
+  position: relative;
+  height: 20rem;
+  background-attachment: fixed;
+}
