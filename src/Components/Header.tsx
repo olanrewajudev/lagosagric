@@ -11,9 +11,10 @@ const Header = () => {
             <div className="flex items-center mb-16 gap-4 justify-between mx-20">
                 <Link to='' className=""> <img src={logo} alt="" className=" w-72" /> </Link>
                 <div className="lg:flex hidden">
-                    <Link to='' className=" font-semibold text-xl px-2">Home</Link>
-                    <Link to='' className="font-semibold text-xl px-2">Who we Are</Link>
-                    <Link to='' className="font-semibold text-xl px-2">Contact Us</Link>
+                    <Link to='/' className=" font-semibold text-xl px-2">Agriculture</Link>
+                    <Link to='/medical' className="font-semibold text-xl px-2">Medical</Link>
+                    <Link to='/education' className="font-semibold text-xl px-2">Education</Link>
+                    <Link to='/travel' className="font-semibold text-xl px-2">Travel</Link>
                 </div>
                 <div className="lg:flex hidden">
                     <div className={`${Iconcs}`}> <Link to='' className='text-white text-3xl'> <BiLogoFacebook /> </Link> </div>

@@ -1,46 +1,28 @@
+import Layouts from "../../Components/Layouts"
+import micro from "../../assets/images/microscope-275984_1280.jpg";
+import sugr from "../../assets/images/surgery.jpg";
+import doct from "../../assets/images/hospital.jpg";
+import wheel from "../../assets/images/labor.jpg";
+import chem from "../../assets/images/vaccine.jpg";
+import vaccine from "../../assets/images/chem.jpg";
 
-import fowl from "../../assets/images/lagosagrohen.jpg";
-import chicken from "../../assets/images/chiken.png";
-import pig from "../../assets/images/lagosagro10.png";
-import cutter from "../../assets/images/lagosagro11.png";
-import rabbit from "../../assets/images/lagosagro14.png";
-import process from "../../assets/images/lagosagro13.png";
-import leaf from "../../assets/images/lagosagro3.jpg";
-import leaf1 from "../../assets/images/lagosagro4.jpg";
-import leaf2 from "../../assets/images/lagosagro5.jpg";
-import leaf3 from "../../assets/images/lagosagro6.jpeg";
-import leaf4 from "../../assets/images/lagosagro7.jpg";
-import poultry from "../../assets/images/lagosagro13.jpeg";
-import human from "../../assets/images/lagosagro12.jpeg";
-import lag16 from "../../assets/images/lagosagro16.png";
-import lag15 from "../../assets/images/lagosagro15.jpeg";
-import { FaBan } from 'react-icons/fa';
-import Layouts from "../../Components/Layouts";
-
-const AgricPage = () => {
+const Medical = () => {
   return (
     <Layouts>
       <div className="mb-3">
         <div className="absolute z-10 mr-16 ml-8 lg:ml-60 my-20 text-white">
-          <div className="tracking-[.27em] text-[0.9rem] mb-3 font-bold">OBASANJO FARMS OTA</div>
-          <h3 className="lg:text-[4.5em] text-[2rem] mb-8 font-bold">Feeding Nigeria since 1979</h3>
-          <p className="leading-7 mb-8">For more than four decades, we have pioneered agriculture systems in Nigeria that develop grow our industry and community. Our priority is you, our customers and partners. Here is to another forty years in your hearts.</p>
+          <div className="tracking-[.27em] text-[0.9rem] mb-3 font-bold">OBASANJO MEDICAL OTA</div>
+          <h3 className="lg:text-[4.5em] text-[2rem] mb-8 font-bold">Aiding in the medical aspect in Nigeria since 1979</h3>
+          <p className="leading-7 mb-8">For more than four decades, we have pioneered medical systems in Nigeria that develop grow our industry and community. Our priority is you, our customers and partners. Here is to another forty years in your hearts.</p>
           <div className="px-6 py-2.5 border border-green-800 hover:border-green-700 hover:border-2 hover:scale-125 transition-all translate-1 w-fit text-center">Learn More</div>
         </div>
-        <img src={fowl} alt="" className="w-screen bg-fowl h-[45rem] brightness-50 object-cover" />
+        <img src={micro} alt="" className="w-screen bg-fowl h-[45rem] brightness-50 object-cover" />
       </div>
 
       <div className="mt-24">
         <div className="text-center">
           <p className="text-red-600 text-xl italic font-serif">What We Do</p>
           <h1 className="lg:text-5xl text-3xl font-bold">From chicken to agro-industrilisation</h1>
-        </div>
-        <div className="lg:flex grid md:grid-cols-2 sm:grid-cols-3 items-center justify-center lg:mr-16 lg:ml-16 mt-20">
-          <div className="px-20"> <img src={chicken} alt="" className="lg:w-[6rem]" /> <div className="text-center text-xl px- py-2">chicken</div> </div>
-          <div className="px-20"> <img src={pig} alt="" className="lg:w-[6rem]" /> <div className="text-center text-xl py-2">pigs</div> </div>
-          <div className="px-20"> <img src={cutter} alt="" className="lg:w-[6rem]" /> <div className="text-center text-xl py-2">GrassCutter</div> </div>
-          <div className="px-20"> <img src={rabbit} alt="" className="lg:w-[6rem]" /> <div className="text-center text-xl py-2">Rabbit</div> </div>
-          <div className="px-20"> <img src={process} alt="" className="lg:w-[6rem]" /> <div className="text-center text-xl py-2">Proccessing</div> </div>
         </div>
         <div className="text-center lg:ml-16 lg:mr-16 mx-5 mb-12 mt-16">We offer some of the best poultry products in the market along with pork, rabbit and grasscutter to consumers. For our fellow partners in the agriculture industry, we can help to provide tools, machinery and services to help grow your agri-business. </div>
       </div>
@@ -56,34 +38,33 @@ const AgricPage = () => {
               <h1 className="lg:text-5xl text-3xl tracking-wide text-center font-bold">There is only chicken  in our chicken</h1>
 
               <div className="mb-7 mt-8">
-                <div className="flex gap-6"> <FaBan className='text-6xl text-red-700' /> <p className="lg:leading-7"> <span className="lg:text-2xl text-xl leading-10">No Additives. No Preservatives</span> <br />
+                <div className="flex gap-6"><p className="lg:leading-7"> <span className="lg:text-2xl text-xl leading-10">No Additives. No Preservatives</span> <br />
                   We never use preservatives or chemicals on our products. We breed our chickens naturally and store them responsibly without chemicals. So that your food is as healthy as should be. </p> </div>
               </div>
 
               <div className="mb-7">
-                <div className="flex gap-6"> <FaBan className='text-6xl text-red-700' /> <p className="lg:leading-7"> <span className="lg:text-2xl text-xl leading-10">No Additives. No Preservatives</span> <br />
+                <div className="flex gap-6"><p className="lg:leading-7"> <span className="lg:text-2xl text-xl leading-10">No Additives. No Preservatives</span> <br />
                   We never use preservatives or chemicals on our products. We breed our chickens naturally and store them responsibly without chemicals. So that your food is as healthy as should be. </p> </div>
               </div>
 
               <div className="mb-7">
-                <div className="flex gap-6"> <FaBan className='text-6xl text-red-700' /> <p className="lg:leading-7"> <span className="lg:text-2xl text-xl leading-10">No Additives. No Preservatives</span> <br />
+                <div className="flex gap-6"><p className="lg:leading-7"> <span className="lg:text-2xl text-xl leading-10">No Additives. No Preservatives</span> <br />
                   We never use preservatives or chemicals on our products. We breed our chickens naturally and store them responsibly without chemicals. So that your food is as healthy as should be. </p> </div>
               </div>
             </div>
             <div className="mb-10">
-              <img src={leaf} alt="" className="lg:w-[69rem] mb-5 w-full h-[35rem] lg:h-[35rem]" />
+              <img src={sugr} alt="" className="lg:w-[69rem] mb-5 w-full h-[35rem] object-cover lg:h-[35rem]" />
               <div className="lg:flex grid grid-cols-2 items-center justify-center w-full mx-auto">
-                <img src={leaf1} alt="" className="lg:w-[6.7rem] w-[37rem] mb-3 lg:pr-0 mr-1 pr-3" />
-                <img src={leaf2} alt="" className="lg:w-[6.7rem] w-[37rem] mb-3 lg:pr-0 mr-1 pr-3" />
-                <img src={leaf3} alt="" className="lg:w-[6.7rem] w-[37rem] mb-3 lg:pr-0 mr-1 pr-3" />
-                <img src={leaf4} alt="" className="lg:w-[6.7rem] w-[37rem] lg:pr-0 pr-3" />
+                <img src={doct} alt="" className="lg:w-[8.7rem] w-[37rem] mb-3 lg:pr-0 mr-1 pr-3" />
+                <img src={wheel} alt="" className="lg:w-[8.7rem] w-[37rem] mb-3 lg:pr-0 mr-1 pr-3" />
+                <img src={chem} alt="" className="lg:w-[8.7rem] w-[37rem] mb-3 lg:pr-0 mr-1 pr-3" />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div className="mb-32">
-        <div className="bgimg">
+        <div className="medicimg">
           <div className="text-center pt-3">
             <div className="text-red-700 italic text-xl font-serif">Our Products</div>
             <div className="text-5xl font-bold text-white">From fresh whole chicken to frozen cuts</div>
@@ -105,31 +86,24 @@ const AgricPage = () => {
         </div>
       </div>
       <div className="bg-gray-100 w-screen">
-        <div className="lg:flex items-center justify-between ml-20 mr-20 pt-24">
+        <div className="lg:flex items-center ml-16 mr-16 justify-between  pt-24">
           <div className="t">
             <p className="text-red-600 text-center text-xl italic font-serif">We Are Pioneers</p>
             <h1 className="lg:text-5xl text-3xl tracking-wide text-center font-bold">An agricultural legacy</h1>
-            <div className="mb-7 ml-16 mt-8">
+            <div className="mb-7  mt-8">
               <div className="leading-8 tracking-wide">From simple beginnings in Ota to becoming one of Nigeria’s foremost <br /> farms in the agric sector, our journey in the industry hasn’t always been <br /> easy. But, like our founder, Chief Olusegun Obasanjo we have been tough <br /> and resilient. In the face of economic and political challenges, our triumphs <br /> have always surpassed our challenges. And they continue to inspire us as <br /> we embrace the challenges and responsibilities of feeding an evolving Africa.</div>
               <br />
-              <div className="leading-8 tracking-wide">As we continue to grow, we’re embracing our responsibility to drive  positive change, solve problems, and make the world a little better every day.  Learn about the values that are key to who we are.</div>
             </div>
           </div>
           <div className="mb-10 ">
-            <div className="pb-16 grid grid-cols-2 items-center justify-center ">
-              <img src={lag16} alt="" className="lg:w-[34.7rem] w-[37rem] mb-1 mr-1 pr-1" />
-              <img src={poultry} alt="" className="lg:w-[34.7rem] w-[37rem] mb-1 mr-1 pr-1" />
-              <img src={human} alt="" className="lg:w-[34.7rem] w-[37rem] mb-1 mr-1 pr-1" />
-              <img src={lag15} alt="" className="lg:w-[34.7rem] w-[37rem] pr-3" />
-              <img src={lag15} alt="" className="lg:w-[34.7rem] w-[37rem] pr-3" />
-              <img src={lag15} alt="" className="lg:w-[34.7rem] w-[37rem] pr-3" />
-              <img src={lag15} alt="" className="lg:w-[34.7rem] w-[37rem] pr-3" />
+            <div className="pb-16 items-center justify-center ">
+              <img src={vaccine} alt="" className="lg:w-[29.7rem] h-[29rem] w-[37rem] object-cover" />
             </div>
           </div>
         </div>
       </div>
     </Layouts>
-  );
-};
+  )
+}
 
-export default AgricPage;
+export default Medical
