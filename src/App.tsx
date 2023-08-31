@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './Pages/General/Home'
+import AgricPage from './Pages/General/AgricPage'
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home />} />
-    </Routes>
+      <Routes>
+        <Route path='/' element={<AgricPage />} />
+      </Routes>
     </BrowserRouter>
   )
 }

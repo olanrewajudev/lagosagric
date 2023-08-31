@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "fowl" : "url('/src/assets/images/lagosagro2.jpg')"
+        "fowl" : "url('/src/assets/images/lagosagro8.jpg')"
       },
       backgroundColor: {
         'ola' : 'red'
